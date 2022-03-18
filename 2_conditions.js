@@ -8,8 +8,7 @@ if (k < 0) {
   console.log("k > 0");
 }
 
-
 if (k === 0) {
-    let lul = "gfd";
-    console.log("k === 0");
-  }
+  let lul = "gfd";
+  console.log("k === 0");
+}
