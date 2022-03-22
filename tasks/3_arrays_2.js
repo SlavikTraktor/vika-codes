@@ -1,3 +1,13 @@
-let arr = [0, 8, 4, 2, 6, -3];
+let arr = [1, 4, 2, 8, 6, -3];
 
 // Найти наибольший элемент в массиве
+
+let max = arr[0];
+
+for (let i = 0; i < arr.length; i++) {
+    if(max < arr[i]) {
+        max = arr[i];
+    }
+}
+
+console.log(max);
