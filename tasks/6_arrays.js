@@ -7,4 +7,4 @@ for (let i = arr.length - 1; i >= 0; i = i - 1) {
   arr_new.push(arr[i]);
 }
 
-console.log(5);
+console.log(arr_new);
