@@ -2,3 +2,12 @@
 
 let x = -8;
 let y = 54;
+
+let arr = [];
+for (let i = 0; i <= y - x; i++) {
+  // for (let i = x; i <= y; i++) {
+  let bleat = x + i;
+  arr.push(bleat);
+}
+
+console.log(arr);
